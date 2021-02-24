@@ -1,4 +1,4 @@
-# You will need to first run "pip install requests" in your venv
+# The "secrets" file contains the bearer_token value. This will not be added to the public repo
 from secrets import *
 from flask import Flask, json, request
 import requests
